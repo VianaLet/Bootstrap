@@ -48,17 +48,18 @@ Este tutorial fornece uma visão geral do uso de botões no Bootstrap, um framew
 ### 1. Classe Padrão
 
 
-    ```html
-    <button type="button" class="btn">Normal</button>
-    <button type="button" class="btn btn-primary">Primário</button>
-    <button type="button" class="btn btn-secondary">Secundário</button>
-    <button type="button" class="btn btn-success">Sucesso</button>
-    <button type="button" class="btn btn-info">Informação</button>
-    <button type="button" class="btn btn-link">Link</button>
-    ```
+```html
+<button type="button" class="btn">Normal</button>
+<button type="button" class="btn btn-primary">Primário</button>
+<button type="button" class="btn btn-secondary">Secundário</button>
+<button type="button" class="btn btn-success">Sucesso</button>
+<button type="button" class="btn btn-info">Informação</button>
+<button type="button" class="btn btn-link">Link</button>
+```
 
 
-    <img src="Imagens/botao-padrao.PNG">
+<img src="Imagens/botao-padrao.PNG">
+
 * Normal: Botão simples.
 * Primário: Destaque principal.
 * Secundário: Opção secundária.
@@ -69,16 +70,17 @@ Este tutorial fornece uma visão geral do uso de botões no Bootstrap, um framew
 
 ### 2. Classes Padrão com Outline Warning/Danger/Dark/Light
 
-    ```html
-    <button type="button" class="btn">Normal</button>
-    <button type="button" class="btn btn-primary btn-outline-warning">Primário Outline Warning</button>
-    <button type="button" class="btn btn-secondary btn-outline-danger">Secundário Outline Danger</button>
-    <button type="button" class="btn btn-success btn-outline-dark">Sucesso Outline Dark</button>
-    <button type="button" class="btn btn-info btn-outline-light">Informação Outline Light</button>
-    ```
+```html
+<button type="button" class="btn">Normal</button>
+<button type="button" class="btn btn-primary btn-outline-warning">Primário Outline Warning</button>
+<button type="button" class="btn btn-secondary btn-outline-danger">Secundário Outline Danger</button>
+<button type="button" class="btn btn-success btn-outline-dark">Sucesso Outline Dark</button>
+<button type="button" class="btn btn-info btn-outline-light">Informação Outline Light</button>
+```
 
-    <img src="Imagens/botao-padrao-outline-WDDL.PNG">
+<img src="Imagens/botao-padrao-outline-WDDL.PNG">
 Ao passar o mouse em cima a cor irá mudar
+
 * Outline Warning/Danger/Dark/Light: Adiciona contorno aos botões com as respectivas cores indicando alerta, perigo, escuro e claro.
 
 <br><br>
@@ -86,14 +88,14 @@ Ao passar o mouse em cima a cor irá mudar
 
 ### 3. Classes Padrão Warning/Danger/Dark/Light
 
-    ```html
-    <button type="button" class="btn btn-warning">Alerta</button>
-    <button type="button" class="btn btn-danger">Perigo</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-link">Link</button>
-    ```
-    <img src="Imagens/botao-padrao-WDDL.PNG">
+```html
+<button type="button" class="btn btn-warning">Alerta</button>
+<button type="button" class="btn btn-danger">Perigo</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-link">Link</button>
+```
+<img src="Imagens/botao-padrao-WDDL.PNG">
 
 * Warning/Danger/Dark/Light: Botões com cores representando alerta, perigo, escuro e claro.
 
@@ -102,13 +104,13 @@ Ao passar o mouse em cima a cor irá mudar
 ### 4. Classes Padrão Warning/Danger/Dark/Light com Outline Primary
 
 
-    ```html
-    <button type="button" class="btn btn-warning btn-outline-primary">Alerta Outline Primary</button>
-    <button type="button" class="btn btn-danger btn-outline-secondary">Perigo Outline Secondary</button>
-    <button type="button" class="btn btn-dark btn-outline-success">Dark Outline Sucesso</button>
-    <button type="button" class="btn btn-light btn-outline-info">Light Outline Informação</button>
-    ```
-    <img src="Imagens/botao-padraoWDDL-outlinePSSI.PNG">
+```html
+<button type="button" class="btn btn-warning btn-outline-primary">Alerta Outline Primary</button>
+<button type="button" class="btn btn-danger btn-outline-secondary">Perigo Outline Secondary</button>
+<button type="button" class="btn btn-dark btn-outline-success">Dark Outline Sucesso</button>
+<button type="button" class="btn btn-light btn-outline-info">Light Outline Informação</button>
+```
+<img src="Imagens/botao-padraoWDDL-outlinePSSI.PNG">
 
 *  Adiciona contorno aos botões com as cores respectivas o botão primário, mantendo a aparência da classe warning danger dark e light.
 <br>
@@ -116,39 +118,39 @@ Ao passar o mouse em cima a cor irá mudar
 ### 5. Classes Outline Warning/Danger/Dark/Light
 
 
-    ```html
-    <button type="button" class="btn btn-outline-warning">Outline Alerta</button>
-    <button type="button" class="btn btn-outline-danger">Outline Perigo</button>
-    <button type="button" class="btn btn-outline-dark">Outline Dark</button>
-    <button type="button" class="btn btn-outline-light">Outline Light</button>
-    ```
+```html
+<button type="button" class="btn btn-outline-warning">Outline Alerta</button>
+<button type="button" class="btn btn-outline-danger">Outline Perigo</button>
+<button type="button" class="btn btn-outline-dark">Outline Dark</button>
+<button type="button" class="btn btn-outline-light">Outline Light</button>
+```
 
-    <img src="Imagens/botao-outlineWDDL.PNG">
+<img src="Imagens/botao-outlineWDDL.PNG">
 
 * Outline Warning/Danger/Dark/Light: Botões com contorno nas cores representando alerta, perigo, escuro e claro.
 <br>
 
 ### 6. Classes Outline Primary/Secondary/Success/Info
 
-    ```html
-    <button type="button" class="btn">Normal</button>
-    <button type="button" class="btn btn-outline-primary">Outline Primário</button>
-    <button type="button" class="btn btn-outline-secondary"> Outline Secundário</button>
-    <button type="button" class="btn btn-outline-success">Outline Sucesso</button>
-    <button type="button" class="btn btn-outline-info">Outline Informação</button>
-    ```
-    <img src="Imagens/botao-outlinePSSI.PNG">
+```html
+<button type="button" class="btn">Normal</button>
+<button type="button" class="btn btn-outline-primary">Outline Primário</button>
+<button type="button" class="btn btn-outline-secondary"> Outline Secundário</button>
+<button type="button" class="btn btn-outline-success">Outline Sucesso</button>
+<button type="button" class="btn btn-outline-info">Outline Informação</button>
+```
+<img src="Imagens/botao-outlinePSSI.PNG">
 * Outline Primary/Secondary/Success/Info: Botões com contorno nas cores padrão do Bootstrap
 <br>
 
 ### 7. Classes de Tamanhos
     
-    ```html
-    <button type="button" class="btn btn-outline-primary btn-sm">Tamanho</button>
-    <button type="button" class="btn btn-outline-secondary"> Tamanho</button>
-    <button type="button" class="btn btn-outline-success btn-lg">Tamanho</button>
-    ```
-    <img src="Imagens/botao-tamanhos-sm-lg.PNG">
+```html
+<button type="button" class="btn btn-outline-primary btn-sm">Tamanho</button>
+<button type="button" class="btn btn-outline-secondary"> Tamanho</button>
+<button type="button" class="btn btn-outline-success btn-lg">Tamanho</button>
+```
+<img src="Imagens/botao-tamanhos-sm-lg.PNG">
 
 * Tamanho: Botões com tamanhos pequeno (btn-sm), padrão e grande (btn-lg).
 <br>
@@ -207,63 +209,66 @@ Ao passar o mouse em cima a cor irá mudar
     Grupo de Botões Vertical SM
 
 
-    ```html
-    <div class="btn-group-vertical btn-group-sm">
-        <h2 class="text-center fs-4 mb-4">sm</h2>
-        <!-- Botões aqui -->
-        <button type="button" class="btn btn-dark">small</button>
-        <button type="button" class="btn btn-dark">small</button>
-        <button type="button" class="btn btn-dark">small</button>
-        <button type="button" class="btn btn-dark">small</button>
-    </div>
-    ```
+```html
+<div class="btn-group-vertical btn-group-sm">
+    <h2 class="text-center fs-4 mb-4">sm</h2>
+    <!-- Botões aqui -->
+    <button type="button" class="btn btn-dark">small</button>
+    <button type="button" class="btn btn-dark">small</button>
+    <button type="button" class="btn btn-dark">small</button>
+    <button type="button" class="btn btn-dark">small</button>
+</div>
+```
 
     Grupo de Botões Vertical
 
-    ```html
-    <div class="btn-group-vertical m-5">
-        <h2 class="text-center fs-4 mb-4">normal</h2>
-        <!-- Botões aqui -->
-        <button type="button" class="btn btn-dark">normal</button>
-        <button type="button" class="btn btn-dark">normal</button>
-        <button type="button" class="btn btn-dark">normal</button>
-        <button type="button" class="btn btn-dark">normal</button>
-    </div>
-    ```
+```html
+<div class="btn-group-vertical m-5">
+    <h2 class="text-center fs-4 mb-4">normal</h2>
+    <!-- Botões aqui -->
+    <button type="button" class="btn btn-dark">normal</button>
+    <button type="button" class="btn btn-dark">normal</button>
+    <button type="button" class="btn btn-dark">normal</button>
+    <button type="button" class="btn btn-dark">normal</button>
+</div>
+```
 
     Grupo de Botões Vertical LG
 
-    ```html
-    <div class="btn-group-vertical btn-group-lg">
-        <h2 class="text-center fs-4 mb-4">normal</h2>
-        <!-- Botões aqui -->
-        <button type="button" class="btn btn-dark">normal</button>
-        <button type="button" class="btn btn-dark">normal</button>
-        <button type="button" class="btn btn-dark">normal</button>
-        <button type="button" class="btn btn-dark">normal</button>
-    </div>
-    ```
-    <img src="Imagens/grupo-botoes-vertical.PNG">
-    <img src="Imagens/grupo-botoes-vertical2.PNG">
+```html
+<div class="btn-group-vertical btn-group-lg">
+    <h2 class="text-center fs-4 mb-4">normal</h2>
+    <!-- Botões aqui -->
+    <button type="button" class="btn btn-dark">normal</button>
+    <button type="button" class="btn btn-dark">normal</button>
+    <button type="button" class="btn btn-dark">normal</button>
+    <button type="button" class="btn btn-dark">normal</button>
+</div>
+```
+
+<img src="Imagens/grupo-botoes-vertical.PNG">
+<img src="Imagens/grupo-botoes-vertical2.PNG">
+
 * Grupos de Botões Verticais: Agrupamento vertical de botões para uma apresentação mais organizada.
 
 ### 10. Dropdown
-    ```html
-        <h2>Grupo de botões dropdown</h2>
-        <div class=" btn-group btn-group-sm"> <!--Estou indicando que temos um grupo de botões aqui-->
-            <button type="button" class="btn btn-outline-primary ">HTML</button>
-            <button type="button" class="btn btn-outline-secondary"> CSS</button>
-            <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">Javascript</button>
-                <!--data-bs-toggle="dropdown" é o que vai fazer o botão funcionar com js-->
-                <div class="dropdown-menu"> <!--Criando o menu do botão javascript-->
-                    <a class="dropdown-item" href="#">Variáveis</a>
-                    <a class="dropdown-item" href="#">Console</a>
-                    <a class="dropdown-item" href="#">Condicionais</a>
-                </div>
-            <button type="button" class="btn btn-outline-success ">Bootstrap </button>
-            <button type="button" class="btn btn-outline-success ">React </button>
+```html
+<h2>Grupo de botões dropdown</h2>
+<div class=" btn-group btn-group-sm"> <!--Estou indicando que temos um grupo de botões aqui-->
+    <button type="button" class="btn btn-outline-primary ">HTML</button>
+    <button type="button" class="btn btn-outline-secondary"> CSS</button>
+    <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">Javascript</button>
+        <!--data-bs-toggle="dropdown" é o que vai fazer o botão funcionar com js-->
+        <div class="dropdown-menu"> <!--Criando o menu do botão javascript-->
+            <a class="dropdown-item" href="#">Variáveis</a>
+            <a class="dropdown-item" href="#">Console</a>
+            <a class="dropdown-item" href="#">Condicionais</a>
         </div>
-    ```
+    <button type="button" class="btn btn-outline-success ">Bootstrap </button>
+    <button type="button" class="btn btn-outline-success ">React </button>
+</div>
+```
+
 <img src="Imagens/botao-dropdown.PNG">
 
 Espero que este tutorial seja útil para explorar e entender melhor os botões no Bootstrap! Se precisar de mais informações ou tiver alguma dúvida, sinta-se à vontade para perguntar.
