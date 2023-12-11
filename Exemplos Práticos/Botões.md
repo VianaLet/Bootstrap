@@ -157,7 +157,7 @@ Ao passar o mouse em cima a cor irá mudar
 
 ### 8. Grupos de Botões
 
-    <img src="Imagens/grupo-botoes.PNG">
+<img src="Imagens/grupo-botoes.PNG">
 
 * Grupos de Botões: Agrupamento de botões para facilitar a organização e interação do usuário.
     
