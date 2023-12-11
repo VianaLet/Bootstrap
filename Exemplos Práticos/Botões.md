@@ -3,6 +3,8 @@
 Este tutorial fornece uma visão geral do uso de botões no Bootstrap, um framework popular de design front-end. Abaixo estão exemplos de diferentes estilos de botões usando classes pré-definidas no Bootstrap.
 
 ## Tabela de conteúdo
+
+[Arquivo HTML aqui](Botões.html)
 |Tópico|
 |------|
 |[Configuração Básica do HTML para Bootstrap](#configuração-básica-do-html-para-bootstrap)|
